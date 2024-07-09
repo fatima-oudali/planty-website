@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+    font-family: 'Syne', sans-serif;
+}
+/*H1*/
+.elementor-heading-title {
+   font-size: 38px;
+   font-weight: 800;
+   margin-top: 30px;
+   text-align: center;
+}
+/* On applique un noir sur les paragraphes */
+p {
+   color: #000000;
+}
+/* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
+.hover-effect img {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1) translateY(0px);
+}
+.hover-effect img:hover {
+   transition: all 0.33s ease-in-out;
+   transform: scale(1.05) translateY(-10px);
+}
+
+/* HEADER */
+
+#site-header.sticky-top {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+ }
+
+.header-inner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ .custom-logo {
+    width: 201px;
+    height: 19px;
+ }
+
+ li.menu-item a {
+    color: #000000 !important;
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+ }
+ li.menu-item a:hover {
+   text-decoration: none;
+ }
+ 
+/*li.menu-item a:hover,*/
+li.menu-item.current-menu-item a {
+    
+   text-decoration: none !important;
+ }
+ #menu-item-218 a {
+   color: #fff !important;
+   background-color: #DC9F96;
+   text-decoration: none;
+ }
+ #menu-item-218 a:hover {
+   background-color: #C02E44;
+ }
+/*Nous rencontrer*/
+
+/*Commander*/
+.page-id-13 {
+   background-color: #3B8E46;
+}
+.commander-h1 {
+   color: #fff;
+}
+.commander-h2{
+   color: #fff;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   display: flex;
+   justify-content: start;
+
+}
+.counter-section {
+   border-top: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 860px;
+   padding: 0;
+}
+
+.counter-container {
+   height: 56px;
+   display:inline-flex;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+   
+}
+.counter-number {
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 400;
+   background-color: #fff;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   width: 51px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.counter-plus-minus {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 31px;
+   height: 56px; 
+   background-color: #DC9F96;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.counter-plus-minus a {
+   color: #fff;
+   font-size: 20px;
+   
+}
+.counter-separator {
+   margin: 0;
+   border-top: 1px solid #fff;
+   width: 31px;
+}
+.counter-ok-button{
+   font-size: 15px;
+   color: #fff;
+   background-color: #E0B9B4;
+   width: 100px;
+   border-radius: 5px;
+   margin-left: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 10px;
+}
+.counter-ok-button:hover {
+   background-color: #C02E44;
+}
+.counter-bloc {
+   padding: 0;
+}
+.commander-form1 {
+   padding-left: 0;
+}
+.commander-form2 {
+   padding-right: 0;
+}
+.vertical-separator { 
+   width: 1px; /* Épaisseur du séparateur */
+   height: 100%; /* Hauteur du séparateur */ 
+   background-color: #fff; /* Couleur du séparateur */ 
+   margin: 0 auto; /* Centrer le séparateur */ }
+
+.commander-btn {
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 400;
+   background-color: #E0B9B4;
+   border-radius: 5px;
+   width: 198px;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding: 0;
+}
+.commander-btn:hover {
+   background-color: #C02E44;
+}
+/* Footer */
+#site-footer {
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff !important;
+ }
+
+ #site-footer a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+ }
+
+
+
