@@ -71,8 +71,50 @@ li.menu-item.current-menu-item a {
  .page-id-9{
    background-color: #ECE2DA;
  }
+
+ .section-energie-plantes {
+   text-align: center;
+ }
+ .section-energie-plantes h2{
+   color: #3B8E46;
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 36px;
+   margin-top: 36px;
+ }
+ .section-energie-plantes p {
+   font-size: 20px;
+   line-height: 24px;
+ }
+ .section-gouts h2{
+   font-size: 30px;
+   font-weight: 800;
+   color: #D2776A;
+ }
+ .section-gouts .commander-btn {
+   border-radius: 0;
+ }
+ .section-avis h2 {
+   color: #3B8E46;
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 30px;
+   margin-top: 100px;
+ }
+ .section-p {
+   width:345px ;
+   height:139px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .section-p p {
+   display: flex;
+   flex-direction: column;
+ }
+
 /*Nous rencontrer*/
-.page-id-11 {
+{
    background-color: #ECE2DA;
 }
 .elementor-11 .elementor-element.elementor-element-02afd53 {
@@ -86,7 +128,7 @@ li.menu-item.current-menu-item a {
    text-align: center;
 }
 
-.elementor-widget-text-editor p {
+.page-id-11 .elementor-widget-text-editor p {
    text-align: center;
    font-size: 20px;
 }
