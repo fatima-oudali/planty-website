@@ -31,15 +31,20 @@ p {
     z-index: 10;
     top: 0;
     background-color: #fff;
+    
  }
 
 .header-inner {
-    padding-top: 0;
-    padding-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+   width: 100%;
+   padding-left: 25px;
+   
 }
  .custom-logo {
     width: 201px;
     height: 19px;
+    margin-right: 20px;
  }
 
  li.menu-item a {
@@ -48,6 +53,7 @@ p {
     padding: 25px;
     text-align: center;
     text-decoration: none;
+   
  }
  li.menu-item a:hover {
    text-decoration: none;
@@ -71,6 +77,15 @@ li.menu-item.current-menu-item a {
  .page-id-9{
    background-color: #ECE2DA;
  }
+
+ .page-id-9 h1 {
+   font-size: 38px;
+   font-weight: 800;
+   color: #3B8E46;
+   width: 781px;
+   height: 92px;
+   padding-bottom: 0;
+}
 
  .section-energie-plantes {
    text-align: center;
@@ -114,7 +129,7 @@ li.menu-item.current-menu-item a {
  }
 
 /*Nous rencontrer*/
-{
+.page-id-11 {
    background-color: #ECE2DA;
 }
 .elementor-11 .elementor-element.elementor-element-02afd53 {
@@ -138,17 +153,33 @@ li.menu-item.current-menu-item a {
    background-color: #fff;
  
 }
-.section-equipe h2 {
+.section-equipe h2, .section-contacter h2 {
    font-size: 30px;
-   margin-top: 50px;
+   font-weight: 700;
+   margin-top: 70px;
+   text-align: center;
 }
 .section-equipe h3 {
    font-size: 20px;
 }
-/*.page-id-11 .e-con-inner {
-   padding: 0;
-   margin: 0;
-}*/
+
+#form-field-message {
+   height: 237px;
+   resize: none;
+   border: 1px solid transparent;
+}
+#form-field-name, #form-field-email {
+   border: 1px solid transparent;
+   height: 71px;
+}
+#contact-btn {
+   width: 198px;
+   height: 55px;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: normal;
+   text-align: center;
+}
 /*Commander*/
 .page-id-13 {
    background-color: #3B8E46;
@@ -174,13 +205,19 @@ li.menu-item.current-menu-item a {
    padding: 0;
 }
 
+.counter-section h2 {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   margin-top: 25px;
+}
+
 .counter-container {
    height: 56px;
    display:inline-flex;
    display: flex;
    justify-content: center;
    align-content: center;
-
    
 }
 .counter-number {
@@ -234,17 +271,48 @@ li.menu-item.current-menu-item a {
 .counter-bloc {
    padding: 0;
 }
+
+.section-form-commander h2 {
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   margin-bottom: 20px;
+}
 .commander-form1 {
    padding-left: 0;
 }
 .commander-form2 {
    padding-right: 0;
+   margin-left: 25px;
 }
 .vertical-separator { 
    width: 1px; /* Épaisseur du séparateur */
-   height: 100%; /* Hauteur du séparateur */ 
+   height: 93%; /* Hauteur du séparateur */ 
    background-color: #fff; /* Couleur du séparateur */ 
-   margin: 0 auto; /* Centrer le séparateur */ }
+   margin: 0 auto; /* Centrer le séparateur */
+ }
+
+
+.wpcf7-form label {
+   font-size: 20px;
+   color: #fff;
+   line-height: 24px;
+   padding-bottom: 10px;
+}
+
+.wpcf7-form-control-wrap input {
+   border: 0.01px solid #fff;
+   border-radius: 7px;
+   width: 383px;
+   height: 71px;
+   margin-top: 10px;
+}
+input:focus {
+   outline: none;
+}
+textarea:focus {
+   outline: none;
+}
 
 .commander-btn {
    text-decoration: none;
@@ -261,9 +329,11 @@ li.menu-item.current-menu-item a {
    margin: auto;
    padding: 0;
 }
+
 .commander-btn:hover {
    background-color: #C02E44;
 }
+
 /* Footer */
 #site-footer {
     height: 60px;
@@ -279,6 +349,8 @@ li.menu-item.current-menu-item a {
     color: #000000;
     text-decoration: none;
  }
+
+
 
 
 
