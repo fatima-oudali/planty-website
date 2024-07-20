@@ -4,12 +4,12 @@ body * {
     font-family: 'Syne', sans-serif;
 }
 /*H1*/
-.elementor-heading-title {
+/*.elementor-heading-title {
    font-size: 38px;
    font-weight: 800;
    margin-top: 30px;
    text-align: center;
-}
+}*/
 /* On applique un noir sur les paragraphes */
 p {
    color: #000000;
@@ -37,10 +37,13 @@ p {
 .header-inner {
    padding-top: 0;
    padding-bottom: 0;
+   /*padding-top: 15px;
+   padding-bottom: 15px;*/
    width: 100%;
    padding-left: 25px;
    
 }
+
  .custom-logo {
     width: 201px;
     height: 19px;
@@ -82,9 +85,10 @@ li.menu-item.current-menu-item a {
    font-size: 38px;
    font-weight: 800;
    color: #3B8E46;
-   width: 781px;
-   height: 92px;
+  /* width: 781px;
+   height: 92px;*/
    padding-bottom: 0;
+   text-align: center;
 }
 
  .section-energie-plantes {
@@ -117,8 +121,8 @@ li.menu-item.current-menu-item a {
    margin-top: 100px;
  }
  .section-p {
-   width:345px ;
-   height:139px ;
+  /* width:345px ;
+   height:139px ;*/
    display: flex;
    justify-content: center;
    align-items: center;
@@ -133,7 +137,7 @@ li.menu-item.current-menu-item a {
    background-color: #ECE2DA;
 }
 .elementor-11 .elementor-element.elementor-element-02afd53 {
-   width: 680px;
+  /* width: 680px;*/
    margin-top: 110px;
 }
 .page-id-11 h1 {
@@ -161,6 +165,11 @@ li.menu-item.current-menu-item a {
 }
 .section-equipe h3 {
    font-size: 20px;
+}
+.feuille-equipe {
+   width: 191px;
+   height: 219px;
+   margin-right: 50px;
 }
 
 #form-field-message {
@@ -350,6 +359,66 @@ textarea:focus {
     text-decoration: none;
  }
 
+/* Media Queries pour Tablettes */
+@media (max-width: 1024px) {
+   /*Accueil*/
+
+   /*Nous rencontrer*/
+
+   /*Commander*/
+}
+
+@media (max-width: 999px) {
+   .header-inner {
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+/* Media Queries pour Téléphones */
+@media (max-width: 768px) {
+
+   /*Accueil*/
+   .page-id-9 h1, .page-id-11 h1 {
+      font-size: 30px;
+   }
+
+   .section-energie-plantes h2{
+      font-size: 25px;
+    }
+    .section-energie-plantes p, .section-avis p, .section-gouts p {
+      font-size: 18px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+   .section-avis h2, .section-gouts h2, .section-avis h2 {
+      font-size: 20px;
+      margin-top: 50px;
+   }
+   .section-avis h3 {
+      font-size: 18px;
+   }
+   .equipe-flex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+   }
+   .membre {
+
+   }
+
+   /*Nous rencontrer*/
+
+   /*Commander*/
+   .commander-h1 {
+      font-size: 22px;
+   }
+   .commander-form2 {
+      margin: 0;
+   }
+}
 
 
 
