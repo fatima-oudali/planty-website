@@ -358,7 +358,13 @@ textarea:focus {
     color: #000000;
     text-decoration: none;
  }
-
+ @media (max-width: 1300px) {
+   .acuueil-h1 {
+      margin-left: 200px;
+      margin-right: 200px;
+      padding: 0;
+   }
+}
 /* Media Queries pour Tablettes */
 @media (max-width: 1024px) {
    /*Accueil*/
